@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .info-table td {
+            padding: 8px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .info-table th {
+            padding: 8px;
+            background-color: #f2f2f2;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .two-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mi Currículum Vitae - UMG DISEÑO WEB</h1>
+    </div>
+
+    <div class="two-columns">
+        <div>
+            <img src="https://avatars.githubusercontent.com/u/139945822?v=4" alt="Mi Foto" class="profile-img">
+        </div>
+        <div>
+            <table class="info-table">
+                <tr>
+                    <th>Nombre:</th>
+                    <td>Ana Laura Mercedes Santizo Domínguez</td>
+                </tr>
+                <tr>
+                    <th>Fecha de nacimiento:</th>
+                    <td>29-09-1997</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>asantizod@miumg.edu.gt</td>
+                </tr>
+                  <tr>
+                    <th>Teléfono:</th>
+                    <td>5986-3545</td>
+                </tr>
+                <tr>
+                    <th>Dirección:</th>
+                    <td>Zona 2, Mixco</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>Experiencia Laboral</h2>
+    <table class="info-table">
+        <tr>
+            <th>Período</th>
+            <th>Empresa</th>
+            <th>Puesto</th>
+        </tr>
+        <tr>
+            <td>Agosto 2016 - Diciembre 2019</td>
+            <td>Banco Industrial S. A. </td>
+            <td>Agente telefónico</td>
+        </tr>
+        <tr>
+            <td>Diciembre 2019 - Febrero 2022</td>
+            <td>Banco Industrial S. A. </td>
+            <td>Analista de Control de Calidad</td>
+        </tr>
+        <tr>
+            <td>Febrero 2022 - Febrero 2023</td>
+            <td>Banco Industrial S. A. </td>
+            <td>Programadora de Pruebas Automatizadas</td>
+        </tr>    
+        <tr>
+            <td>Febrero 2023 - Presente</td>
+            <td>Banco Industrial S. A. </td>
+            <td>Coordinadora de Pruebas Automatizadas</td>
+        </tr>      
+    </table>
+
+    <h2>Educación</h2>
+    <table class="info-table">
+        <tr>
+            <th>Período</th>
+            <th>Institución</th>
+            <th>Título</th>
+        </tr>
+        <tr>
+            <td>2020 - Presente</td>
+            <td>Universidad Mariano Gálvez de Guatemala</td>
+            <td>Ingeniería en Sistemas</td>
+        </tr>
+
+    </table>
+
+	    <h2>Referencias Personales</h2>
+ <table class="info-table">
+        <tr>
+            <th>Nombre</th>
+            <th>Celular</th>
+        </tr>
+        <tr>
+            <td>         Ing. Diego Biz</td>
+            <td>5482-0687</td>
+        </tr>
+    </table>
+</body>
+</html>
